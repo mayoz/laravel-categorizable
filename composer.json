@@ -1,0 +1,49 @@
+{
+    "name": "mayoz/laravel-categorizable",
+    "description": "Polymorphic categorizable for Laravel",
+    "keywords": ["laravel", "polymorphic", "categorizable"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/mayoz/laravel-categorizable/issues",
+        "source": "https://github.com/mayoz/laravel-categorizable"
+    },
+    "authors": [
+        {
+            "name": "Sercan Çakır",
+            "email": "srcnckr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/database": "~5.4|~5.5",
+        "illuminate/support": "~5.4|~5.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.4",
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mayoz\\Categorizable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mayoz\\Tests\\Categorizable\\": "tests"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mayoz\\Categorizable\\CategorizableServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
