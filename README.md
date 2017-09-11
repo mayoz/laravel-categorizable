@@ -18,7 +18,7 @@ Easily add the ability to category your Eloquent models in Laravel 5.
 You can install the package via composer:
 
 ``` bash
-composer require mayoz/categorizable
+composer require mayoz/laravel-categorizable
 ```
 
 Register the service provider in your `config/app.php` configuration file:
